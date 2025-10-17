@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Log in</h1>
+    <form>
+        <p>Username</p>    
+        <input = type="text" name="username"/>
+        <p>Password</p>
+        <input type="password"name="password" size = "10" maxlength="6"> 
+        <br />
+        <label>Giới Tính</label>
+        <input type="radio" name="gender" value="men" /> Men
+        <input type="radio" name="gender" value="women" /> Women
+        <p><label>Shipping</label>
+        <label><input type="checkbox" name="interest" value="Home">Home </label> 
+        <label></label><input type="checkbox" name="interest" value="Company">Company </label>
+        <label></label><input type="checkbox" name="interest" value="Other"> Other</label></p>
+        <p>Shipping unit</p>
+        <select name="unit" size="1"  >
+            <option value="ghn">GHN</option>
+            <option value="ghtl">GHTK</option>
+            <option value="viettelpost">Viettel Post</option>
+        </select><br/>
+        <p>Delivery time</p>
+        <select name="time"  size = 3 multiple ="multiple">
+        <option value="shift1" selected="selected">6-9</option>
+        <option value="shift2" >9-11</option>
+        <option value="shift3" >11-13</option>
+        <option value="shift4" selected="selected">13-15</option>
+        <option value="shift5" >15-17</option>
+        </select>
+        <p>Comment </p>
+            <textarea name="Comment" cols="30" rows="5"></textarea><br/>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
