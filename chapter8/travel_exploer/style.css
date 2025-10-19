@@ -1,0 +1,123 @@
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Toàn trang */
+body {
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #00b4db, #0083b0);
+  color: white;
+  padding: 40px 20px;
+}
+
+header img {
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .highlight {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+/* Thanh điều hướng */
+nav {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00b4db;
+}
+
+/* Mỗi section */
+section {
+  padding: 40px 60px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #0083b0;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #00b4db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Bảng điểm đến */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  vertical-align: top;
+}
+
+th {
+  background-color: #0083b0;
+  color: white;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e8f4f8;
+}
+
+/* Bản đồ */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 3px solid #00b4db;
+}
+
+/* Footer */
+footer {
+  background-color: #0083b0;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
