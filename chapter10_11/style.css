@@ -1,0 +1,28 @@
+body{
+    color: rgb(13, 10, 10);
+    background-color: rgba(123,255,132,0.3);
+    
+}
+h4{
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.highlight{
+    background-color: hsla(123, 112, 123, o,4);
+}
+header{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: left;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 15px;
+
+      margin-bottom: 20px;
+}
+div h5{
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: rgba(95, 22, 79, 0.321);
+
+}
