@@ -1,0 +1,54 @@
+/* Nền tổng thể */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Tiêu đề trang */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Hộp thông tin sinh viên */
+.student-card {
+  background-color: white;         /* nền trắng cho box */
+  border: 2px solid #c6d4ff;            /* viền hộp */
+  border-radius: 15px;                  /* bo góc mềm mại */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* đổ bóng nhẹ */
+  padding: 20px;                        /* khoảng cách trong hộp */
+  margin: 20px auto;                    /* cách lề và căn giữa */
+  max-width: 400px;                     /* giới hạn chiều rộng */
+  display: flex;                        /* cho phép ảnh và chữ nằm ngang */
+  align-items: center;                  /* căn giữa theo chiều dọc */
+  transition: transform 0.3s, box-shadow 0.3s; /* hiệu ứng hover */
+}
+
+.student-card:hover {
+  transform: translateY(-5px); /* nổi nhẹ khi rê chuột */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Ảnh trong box */
+.student-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;                    /* ảnh không méo, cắt đều */
+  border: 3px solid #66a3ff;
+  margin-right: 20px;                   /* khoảng cách giữa ảnh và chữ */
+}
+
+/* Thông tin chữ */
+.info h2 {
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 5px 0;
+  color: #555;
+}
